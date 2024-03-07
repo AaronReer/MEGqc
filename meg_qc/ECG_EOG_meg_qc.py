@@ -7,8 +7,8 @@ import matplotlib #this is in case we will need to suppress mne matplotlib plots
 from copy import deepcopy
 from scipy.ndimage import gaussian_filter
 from scipy.stats import pearsonr
-from meg_qc.source.universal_html_report import simple_metric_basic
-from meg_qc.source.universal_plots import QC_derivative, get_tit_and_unit, plot_df_of_channels_data_as_lines_by_lobe
+from meg_qc.universal_html_report import simple_metric_basic
+from meg_qc.universal_plots import QC_derivative, get_tit_and_unit, plot_df_of_channels_data_as_lines_by_lobe
 from IPython.display import display
 
 

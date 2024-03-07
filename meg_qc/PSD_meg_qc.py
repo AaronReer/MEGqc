@@ -13,8 +13,8 @@ from IPython.display import display
 from typing import List
 
 
-from meg_qc.source.universal_plots import QC_derivative, get_tit_and_unit, plot_df_of_channels_data_as_lines_by_lobe
-from meg_qc.source.universal_html_report import simple_metric_basic
+from meg_qc.universal_plots import QC_derivative, get_tit_and_unit, plot_df_of_channels_data_as_lines_by_lobe
+from meg_qc.universal_html_report import simple_metric_basic
 
 # ISSUE IN /Volumes/M2_DATA/MEG_QC_stuff/data/from openneuro/ds004107/sub-mind004/ses-01/meg/sub-mind004_ses-01_task-auditory_meg.fif...
 # COULDNT SPLIT  when filtered data - check with new psd version

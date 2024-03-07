@@ -4,7 +4,7 @@ import numpy as np
 import random
 
 from IPython.display import display
-from meg_qc.source.universal_plots import plot_sensors_3d, plot_time_series, plot_time_series_avg
+from meg_qc.universal_plots import plot_sensors_3d, plot_time_series, plot_time_series_avg
 
 
 def get_all_config_params(config_file_name: str):

@@ -6,9 +6,9 @@ import numpy as np
 import pandas as pd
 import mne
 from scipy.signal import find_peaks
-from meg_qc.source.universal_plots import boxplot_all_time, boxplot_epochs, boxplot_epoched_xaxis_channels, boxplot_epoched_xaxis_epochs, assign_epoched_std_ptp_to_channels
-from meg_qc.source.universal_html_report import simple_metric_basic
-from meg_qc.source.STD_meg_qc import make_dict_global_std_ptp, make_dict_local_std_ptp, get_big_small_std_ptp_all_data, get_noisy_flat_std_ptp_epochs
+from meg_qc.universal_plots import boxplot_all_time, boxplot_epochs, boxplot_epoched_xaxis_channels, boxplot_epoched_xaxis_epochs, assign_epoched_std_ptp_to_channels
+from meg_qc.universal_html_report import simple_metric_basic
+from meg_qc.STD_meg_qc import make_dict_global_std_ptp, make_dict_local_std_ptp, get_big_small_std_ptp_all_data, get_noisy_flat_std_ptp_epochs
 from IPython.display import display
 
 def neighbour_peak_amplitude(max_pair_dist_sec: float, sfreq: int, pos_peak_locs:np.ndarray, neg_peak_locs:np.ndarray, pos_peak_magnitudes: np.ndarray, neg_peak_magnitudes: np.ndarray):
